@@ -35,7 +35,7 @@ oidc:
   # A minimal configuration requires setting clientId, issuerUrl and usernameClaim
   # values.
   clientId: "kiali-client"
-  issuerUrl: "https://20.105.64.77/realms/master/.well-known/openid-configuration"
+  issuerUrl: "https://sandpit-poc-keycloak.azure.factory.dagility.com/"
   usernameClaim: "email"
 
   # PEM encoded value of CA cert that will verify TLS connection to
